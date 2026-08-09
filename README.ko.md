@@ -69,20 +69,29 @@ DONE 아님      →  agent는 멈출 수 없음
 
 ## 설치
 
+**방법 1: plugin marketplace 사용 (가장 빠르고 업데이트도 명령 하나로 끝납니다)**
+
+```
+/plugin marketplace add VietUy001/iOS2Android
+/plugin install ios2android@ios2android
+```
+
+**방법 2: 직접 복사**
+
 ```bash
 git clone https://github.com/VietUy001/iOS2Android.git
 mkdir -p ~/.claude/skills
-cp -R iOS2Android ~/.claude/skills/ios2android
+cp -R iOS2Android/plugins/ios2android/skills/ios2android ~/.claude/skills/
 chmod +x ~/.claude/skills/ios2android/scripts/*.sh
 ```
 
-Claude Code에서 다음을 입력합니다.
+그다음 Claude Code에서 입력합니다:
 
 ```
 /ios2android
 ```
 
-skill이 절대 경로 2개(iOS source와 대상 Android 디렉터리)를 묻고, 문서를 둘 위치를 승인받은 뒤 preflight를 실행합니다.
+skill이 절대 경로 두 개(iOS 소스와 대상 Android 폴더)를 묻고, 문서를 둘 위치를 확인한 뒤 preflight를 실행합니다.
 
 ## 환경 요구 사항
 

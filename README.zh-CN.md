@@ -69,20 +69,29 @@
 
 ## 安装
 
+**方式一：通过 plugin marketplace（最快，之后更新也只需一条命令）**
+
+```
+/plugin marketplace add VietUy001/iOS2Android
+/plugin install ios2android@ios2android
+```
+
+**方式二：手动复制**
+
 ```bash
 git clone https://github.com/VietUy001/iOS2Android.git
 mkdir -p ~/.claude/skills
-cp -R iOS2Android ~/.claude/skills/ios2android
+cp -R iOS2Android/plugins/ios2android/skills/ios2android ~/.claude/skills/
 chmod +x ~/.claude/skills/ios2android/scripts/*.sh
 ```
 
-在 Claude Code 中输入：
+然后在 Claude Code 中输入：
 
 ```
 /ios2android
 ```
 
-skill 会询问两个绝对路径（iOS 源码和目标 Android 目录），请求确认文档存放位置，然后运行 preflight。
+skill 会询问两个绝对路径（iOS 源码与目标 Android 目录），请你确认文档放置位置，然后运行 preflight。
 
 ## 环境要求
 

@@ -69,10 +69,19 @@ Không có ảnh và số đo thì không có parity. Mỗi cổng đều đư�
 
 ## Cài đặt
 
+**Cách 1: qua plugin marketplace (nhanh nhất, cập nhật cũng bằng 1 lệnh)**
+
+```
+/plugin marketplace add VietUy001/iOS2Android
+/plugin install ios2android@ios2android
+```
+
+**Cách 2: copy tay**
+
 ```bash
 git clone https://github.com/VietUy001/iOS2Android.git
 mkdir -p ~/.claude/skills
-cp -R iOS2Android ~/.claude/skills/ios2android
+cp -R iOS2Android/plugins/ios2android/skills/ios2android ~/.claude/skills/
 chmod +x ~/.claude/skills/ios2android/scripts/*.sh
 ```
 

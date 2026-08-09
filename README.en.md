@@ -69,10 +69,19 @@ No screenshots and no numbers means no parity. Every gate is script-checked, and
 
 ## Install
 
+**Option 1: plugin marketplace (fastest, and updates are one command too)**
+
+```
+/plugin marketplace add VietUy001/iOS2Android
+/plugin install ios2android@ios2android
+```
+
+**Option 2: copy the folder yourself**
+
 ```bash
 git clone https://github.com/VietUy001/iOS2Android.git
 mkdir -p ~/.claude/skills
-cp -R iOS2Android ~/.claude/skills/ios2android
+cp -R iOS2Android/plugins/ios2android/skills/ios2android ~/.claude/skills/
 chmod +x ~/.claude/skills/ios2android/scripts/*.sh
 ```
 

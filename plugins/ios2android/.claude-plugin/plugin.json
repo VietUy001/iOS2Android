@@ -1,0 +1,9 @@
+{
+  "name": "ios2android",
+  "version": "1.0.0",
+  "description": "Port an iOS SwiftUI app to Android Jetpack Compose with measurable parity: binary Definition of Done, script-checked visual, behavioural and motion gates, plus a process benchmark.",
+  "author": { "name": "Nguyễn Viết Uy", "url": "https://github.com/VietUy001" },
+  "homepage": "https://github.com/VietUy001/iOS2Android",
+  "repository": "https://github.com/VietUy001/iOS2Android",
+  "license": "CC-BY-NC-ND-4.0"
+}

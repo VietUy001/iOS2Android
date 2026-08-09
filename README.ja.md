@@ -69,20 +69,29 @@ DONE でない       →  agent は停止を許されない
 
 ## インストール
 
+**方法 1: plugin marketplace を使う（最速で、更新もコマンド 1 つで済む）**
+
+```
+/plugin marketplace add VietUy001/iOS2Android
+/plugin install ios2android@ios2android
+```
+
+**方法 2: 手動でコピーする**
+
 ```bash
 git clone https://github.com/VietUy001/iOS2Android.git
 mkdir -p ~/.claude/skills
-cp -R iOS2Android ~/.claude/skills/ios2android
+cp -R iOS2Android/plugins/ios2android/skills/ios2android ~/.claude/skills/
 chmod +x ~/.claude/skills/ios2android/scripts/*.sh
 ```
 
-Claude Code で次を入力する:
+その後 Claude Code で次を入力する:
 
 ```
 /ios2android
 ```
 
-skill は絶対パスを 2 つ（iOS の source と、port 先の Android ディレクトリ）尋ね、ドキュメントの配置場所について承認を求めたうえで preflight を実行する。
+skill が絶対パスを 2 つ（iOS ソースと対象の Android フォルダ）尋ね、ドキュメントの置き場所を確認してから preflight を実行する。
 
 ## 動作環境
 
