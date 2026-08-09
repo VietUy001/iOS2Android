@@ -113,6 +113,15 @@ benchmark/score.sh "$T/parity-spec.md" "$T/android"
 - If the iOS app cannot be built, you must enable ORACLE-LIMITED mode, lose Pillar 1, and get an explicit user sign-off.
 - The doctrine files are written in Vietnamese. An English summary lives in [docs/overview.en.md](docs/overview.en.md).
 
+## Author
+
+**Nguyen Viet Uy** · [@VietUy001](https://github.com/VietUy001)
+
+- Facebook: https://www.facebook.com/1206463405
+- Telegram: https://t.me/QTUNUy
+
+Feedback, bug reports or questions: message me on Telegram or open an issue.
+
 ## Licence
 
 [CC BY-NC-ND 4.0](LICENSE): free for personal, educational, research and internal non-commercial use. **No commercial use. No distribution of modified versions.** Credit the author and link back to the original repository.

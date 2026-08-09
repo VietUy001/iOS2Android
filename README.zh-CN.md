@@ -113,6 +113,15 @@ benchmark/score.sh "$T/parity-spec.md" "$T/android"
 - iOS app 无法构建时，必须启用 ORACLE-LIMITED 并接受失去支柱 1，需要用户签字确认。
 - doctrine 文档使用越南语撰写。英文摘要见 [docs/overview.en.md](docs/overview.en.md)。
 
+## 作者
+
+**Nguyen Viet Uy** · [@VietUy001](https://github.com/VietUy001)
+
+- Facebook: https://www.facebook.com/1206463405
+- Telegram: https://t.me/QTUNUy
+
+反馈、问题报告或使用疑问：可通过 Telegram 联系，或在仓库提 issue。
+
 ## 许可证
 
 [CC BY-NC-ND 4.0](LICENSE)：可免费用于个人、学习、研究以及非商业的内部工作。**禁止商业用途。禁止发布修改版。** 使用时请注明出处并附上原始仓库链接。

@@ -113,6 +113,15 @@ benchmark/score.sh "$T/parity-spec.md" "$T/android"
 - iOS アプリが build できない場合は ORACLE-LIMITED を有効にし、第 1 の柱を失うことを受け入れる必要がある。ユーザーによる承諾の署名が要る。
 - doctrine のドキュメントはベトナム語で書かれている。英語の要約は [docs/overview.en.md](docs/overview.en.md) にある。
 
+## 作者
+
+**Nguyen Viet Uy** · [@VietUy001](https://github.com/VietUy001)
+
+- Facebook: https://www.facebook.com/1206463405
+- Telegram: https://t.me/QTUNUy
+
+フィードバック、バグ報告、使い方の質問は Telegram または repository の issue で受け付けている。
+
 ## ライセンス
 
 [CC BY-NC-ND 4.0](LICENSE): 個人利用、学習、研究、および非商用の社内業務には無償で使える。**商用利用は禁止。改変版の配布も禁止。** 利用する際は出典を明記し、オリジナルの repo へリンクすること。

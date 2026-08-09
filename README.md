@@ -113,6 +113,15 @@ benchmark/score.sh "$T/parity-spec.md" "$T/android"
 - App iOS không build được thì phải bật ORACLE-LIMITED và chịu mất Trụ 1, cần người dùng ký chấp nhận.
 - Tài liệu doctrine viết bằng tiếng Việt. Bản tóm tắt tiếng Anh ở [docs/overview.en.md](docs/overview.en.md).
 
+## Tác giả
+
+**Nguyễn Việt Uy** · [@VietUy001](https://github.com/VietUy001)
+
+- Facebook: https://www.facebook.com/1206463405
+- Telegram: https://t.me/QTUNUy
+
+Góp ý, báo lỗi hoặc hỏi cách dùng: nhắn Telegram hoặc mở Issue trên repo.
+
 ## Giấy phép
 
 [CC BY-NC-ND 4.0](LICENSE): dùng miễn phí cho mục đích cá nhân, học tập, nghiên cứu và công việc nội bộ phi thương mại. **Cấm dùng cho mục đích thương mại. Cấm phát hành bản chỉnh sửa.** Khi dùng thì ghi nguồn và dẫn link về repo gốc.

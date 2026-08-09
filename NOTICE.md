@@ -31,7 +31,17 @@ This is a request rather than a licence term: please **do not mirror or re-uploa
 ## Ghi nguồn / Attribution
 
 ```
-iOS2Android Skill by VietUy001
+iOS2Android Skill by Nguyen Viet Uy (@VietUy001)
 https://github.com/VietUy001/iOS2Android
 Licensed under CC BY-NC-ND 4.0
 ```
+
+## Tác giả / Author
+
+**Nguyễn Việt Uy** · [@VietUy001](https://github.com/VietUy001)
+
+- Facebook: https://www.facebook.com/1206463405
+- Telegram: https://t.me/QTUNUy
+
+Liên hệ về bản quyền, xin phép dùng thương mại, hoặc hợp tác: nhắn Telegram.
+For licensing questions, commercial use requests or collaboration: reach out on Telegram.
