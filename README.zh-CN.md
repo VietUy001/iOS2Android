@@ -126,17 +126,26 @@ benchmark/score.sh "$T/parity-spec.md" "$T/android"
 - iOS app 无法构建时，必须启用 ORACLE-LIMITED 并接受失去支柱 1，需要用户签字确认。
 - doctrine 文档使用越南语撰写。英文摘要见 [docs/overview.en.md](docs/overview.en.md)。
 
-## ⭐ Star History
+## ⭐ 支持这个项目
 
-如果这个项目对你有帮助，欢迎点一个 star。
+如果这个 skill 对你有帮助，请点一个 star。这是让更多人发现它最简单的方式。
 
-<a href="https://star-history.com/#VietUy001/iOS2Android&Date">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=VietUy001/iOS2Android&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=VietUy001/iOS2Android&type=Date" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=VietUy001/iOS2Android&type=Date" width="100%" />
-  </picture>
-</a>
+<div align="center">
+
+<a href="https://github.com/VietUy001/iOS2Android/stargazers"><img src="https://img.shields.io/github/stars/VietUy001/iOS2Android?style=for-the-badge&logo=github&color=FFD166&labelColor=0B0F1A" alt="给仓库点 star"></a>
+<a href="https://t.me/QTUNUy"><img src="https://img.shields.io/badge/Telegram-@QTUNUy-22D3EE?style=for-the-badge&logo=telegram&labelColor=0B0F1A" alt="Telegram"></a>
+
+</div>
+
+<!-- Star History chart: GitHub siet stargazers API tu 30/06/2026 nen bieu do
+     chi chay khi co URL nhung kem token ma hoa. Sinh tai star-history.com
+     (dang nhap GitHub -> them token co scope doc -> Generate embed code),
+     roi thay khoi <div> tren bang:
+     <a href="https://star-history.com/#VIETUY_REPO&Date"><picture>
+       <source media="(prefers-color-scheme: dark)" srcset="<URL_CO_TOKEN>&theme=dark" />
+       <img alt="Star History Chart" src="<URL_CO_TOKEN>" width="100%" />
+     </picture></a>
+-->
 
 ## 作者
 

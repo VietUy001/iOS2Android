@@ -126,17 +126,26 @@ benchmark/score.sh "$T/parity-spec.md" "$T/android"
 - iOS 앱을 build할 수 없으면 ORACLE-LIMITED를 켜고 기둥 1을 포기해야 하며, 사용자의 서명 동의가 필요합니다.
 - doctrine 문서는 베트남어로 작성되어 있습니다. 영어 요약본은 [docs/overview.en.md](docs/overview.en.md)에 있습니다.
 
-## ⭐ Star History
+## ⭐ 프로젝트 응원하기
 
-이 프로젝트가 도움이 되었다면 star 하나 부탁드립니다.
+이 skill이 도움이 되었다면 star를 눌러 주세요. 다른 사람들이 이 저장소를 찾는 데 가장 큰 도움이 됩니다.
 
-<a href="https://star-history.com/#VietUy001/iOS2Android&Date">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=VietUy001/iOS2Android&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=VietUy001/iOS2Android&type=Date" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=VietUy001/iOS2Android&type=Date" width="100%" />
-  </picture>
-</a>
+<div align="center">
+
+<a href="https://github.com/VietUy001/iOS2Android/stargazers"><img src="https://img.shields.io/github/stars/VietUy001/iOS2Android?style=for-the-badge&logo=github&color=FFD166&labelColor=0B0F1A" alt="저장소에 star 남기기"></a>
+<a href="https://t.me/QTUNUy"><img src="https://img.shields.io/badge/Telegram-@QTUNUy-22D3EE?style=for-the-badge&logo=telegram&labelColor=0B0F1A" alt="Telegram"></a>
+
+</div>
+
+<!-- Star History chart: GitHub siet stargazers API tu 30/06/2026 nen bieu do
+     chi chay khi co URL nhung kem token ma hoa. Sinh tai star-history.com
+     (dang nhap GitHub -> them token co scope doc -> Generate embed code),
+     roi thay khoi <div> tren bang:
+     <a href="https://star-history.com/#VIETUY_REPO&Date"><picture>
+       <source media="(prefers-color-scheme: dark)" srcset="<URL_CO_TOKEN>&theme=dark" />
+       <img alt="Star History Chart" src="<URL_CO_TOKEN>" width="100%" />
+     </picture></a>
+-->
 
 ## 작성자
 

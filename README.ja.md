@@ -126,17 +126,26 @@ benchmark/score.sh "$T/parity-spec.md" "$T/android"
 - iOS アプリが build できない場合は ORACLE-LIMITED を有効にし、第 1 の柱を失うことを受け入れる必要がある。ユーザーによる承諾の署名が要る。
 - doctrine のドキュメントはベトナム語で書かれている。英語の要約は [docs/overview.en.md](docs/overview.en.md) にある。
 
-## ⭐ Star History
+## ⭐ このプロジェクトを応援する
 
-このプロジェクトが役に立ったなら、star をひとつ付けてもらえると嬉しい。
+この skill が役に立ったなら star を付けてほしい。他の人がこのリポジトリを見つける一番簡単な方法である。
 
-<a href="https://star-history.com/#VietUy001/iOS2Android&Date">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=VietUy001/iOS2Android&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=VietUy001/iOS2Android&type=Date" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=VietUy001/iOS2Android&type=Date" width="100%" />
-  </picture>
-</a>
+<div align="center">
+
+<a href="https://github.com/VietUy001/iOS2Android/stargazers"><img src="https://img.shields.io/github/stars/VietUy001/iOS2Android?style=for-the-badge&logo=github&color=FFD166&labelColor=0B0F1A" alt="リポジトリに star を付ける"></a>
+<a href="https://t.me/QTUNUy"><img src="https://img.shields.io/badge/Telegram-@QTUNUy-22D3EE?style=for-the-badge&logo=telegram&labelColor=0B0F1A" alt="Telegram"></a>
+
+</div>
+
+<!-- Star History chart: GitHub siet stargazers API tu 30/06/2026 nen bieu do
+     chi chay khi co URL nhung kem token ma hoa. Sinh tai star-history.com
+     (dang nhap GitHub -> them token co scope doc -> Generate embed code),
+     roi thay khoi <div> tren bang:
+     <a href="https://star-history.com/#VIETUY_REPO&Date"><picture>
+       <source media="(prefers-color-scheme: dark)" srcset="<URL_CO_TOKEN>&theme=dark" />
+       <img alt="Star History Chart" src="<URL_CO_TOKEN>" width="100%" />
+     </picture></a>
+-->
 
 ## 作者
 
