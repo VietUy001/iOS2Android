@@ -10,6 +10,10 @@
 ![claude code](https://img.shields.io/badge/Claude%20Code-skill-38BDF8?style=flat-square)
 ![selftest](https://img.shields.io/badge/selftest-39%20checks-3DDC84?style=flat-square)
 
+[![stars](https://img.shields.io/github/stars/VietUy001/iOS2Android?style=flat-square&color=FFD166)](https://github.com/VietUy001/iOS2Android/stargazers)
+[![forks](https://img.shields.io/github/forks/VietUy001/iOS2Android?style=flat-square&color=8FA8C4)](https://github.com/VietUy001/iOS2Android/network/members)
+![last commit](https://img.shields.io/github/last-commit/VietUy001/iOS2Android?style=flat-square&color=5B7290)
+
 </div>
 
 ## iOS2Android 是什么
