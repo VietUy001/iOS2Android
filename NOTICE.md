@@ -1,7 +1,7 @@
 # NOTICE
 
 iOS2Android Skill
-Copyright (c) 2026 VietUy001.
+Copyright (c) 2026 Nguyễn Viết Uy (@VietUy001).
 
 Licensed under **CC BY-NC-ND 4.0** (xem [LICENSE](LICENSE)).
 Bản tóm tắt dễ đọc: https://creativecommons.org/licenses/by-nc-nd/4.0/
@@ -38,7 +38,7 @@ Licensed under CC BY-NC-ND 4.0
 
 ## Tác giả / Author
 
-**Nguyễn Việt Uy** · [@VietUy001](https://github.com/VietUy001)
+**Nguyễn Viết Uy** · [@VietUy001](https://github.com/VietUy001)
 
 - Facebook: https://www.facebook.com/1206463405
 - Telegram: https://t.me/QTUNUy

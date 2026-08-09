@@ -115,7 +115,7 @@ benchmark/score.sh "$T/parity-spec.md" "$T/android"
 
 ## Tác giả
 
-**Nguyễn Việt Uy** · [@VietUy001](https://github.com/VietUy001)
+**Nguyễn Viết Uy** · [@VietUy001](https://github.com/VietUy001)
 
 - Facebook: https://www.facebook.com/1206463405
 - Telegram: https://t.me/QTUNUy
