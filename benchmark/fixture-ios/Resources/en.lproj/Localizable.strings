@@ -1,0 +1,14 @@
+/* Fixture en */
+"tab.home" = "Home";
+"tab.settings" = "Settings";
+"home.title" = "Items";
+"home.addButton" = "Add";
+"home.detail.title" = "New Item";
+"home.detail.namePlaceholder" = "Item name";
+"home.detail.save" = "Save";
+"settings.title" = "Settings";
+"settings.darkMode" = "Dark Mode";
+"settings.language" = "Language";
+"settings.version" = "Version";
+/* HIDDEN: unused key — inventory test */
+"secret.easterEgg" = "You found the easter egg!";

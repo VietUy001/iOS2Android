@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Local run artifacts (khong commit bang chung / anh diff cua tung du an)
+/baseline/
+/fixtures/
+*.local.md
+/parity-spec.md
+/DEVIATIONS.md
+/s2a-manifest.md
+diff_*.png
+onion_*.png
+*_blink.gif
+bbox*.csv
+
+# Build
+build/
+.gradle/
+DerivedData/
+
+# Tool artifacts (Codex/serena tu tao)
+.serena/

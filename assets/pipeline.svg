@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="880" viewBox="0 0 1200 880" font-family="JetBrains Mono, SF Mono, Menlo, DejaVu Sans Mono, monospace">
+  <defs>
+    <pattern id="g" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#151F31" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="acc" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#22D3EE"/><stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="880" fill="#0B0F1A"/>
+  <rect width="1200" height="880" fill="url(#g)" opacity="0.6"/>
+
+  <text x="56" y="62" fill="#E8F2FF" font-size="26" font-weight="700">PIPELINE</text>
+  <text x="56" y="88" fill="#6C86A6" font-size="14">stage -1 → 6 · every stage has a blocking gate: no gate, no next stage</text>
+  <rect x="56" y="102" width="120" height="3" fill="url(#acc)"/>
+
+  <line x1="92" y1="150" x2="92" y2="812" stroke="#22304A" stroke-width="2"/>
+
+  <g font-size="13">
+    <!-- row template: badge, title, output, gate -->
+    <g>
+      <circle cx="92" cy="164" r="20" fill="#0B1A24" stroke="#22D3EE"/>
+      <text x="92" y="169" fill="#22D3EE" font-size="14" text-anchor="middle">-1</text>
+      <text x="140" y="158" fill="#E8F2FF" font-size="19" font-weight="700">PREFLIGHT</text>
+      <text x="140" y="182" fill="#7A90AE">iOS oracle runs · source pinned · test-env ≠ prod · matched device pair</text>
+      <rect x="740" y="140" width="404" height="48" rx="8" fill="#0E1626" stroke="#2A3A55"/>
+      <text x="760" y="170" fill="#8FB6C9">GATE  preflight.sh pre = GREEN</text>
+    </g>
+    <g>
+      <circle cx="92" cy="256" r="20" fill="#0B1A24" stroke="#22D3EE"/>
+      <text x="92" y="261" fill="#22D3EE" font-size="14" text-anchor="middle">0</text>
+      <text x="140" y="250" fill="#E8F2FF" font-size="19" font-weight="700">CONTRACT</text>
+      <text x="140" y="274" fill="#7A90AE">3 parity pillars + tolerance · lite/full mode · never trust old code</text>
+      <rect x="740" y="232" width="404" height="48" rx="8" fill="#0E1626" stroke="#2A3A55"/>
+      <text x="760" y="262" fill="#8FB6C9">GATE  user signs off contract + mode</text>
+    </g>
+    <g>
+      <circle cx="92" cy="348" r="20" fill="#0B1A24" stroke="#22D3EE"/>
+      <text x="92" y="353" fill="#22D3EE" font-size="14" text-anchor="middle">1</text>
+      <text x="140" y="342" fill="#E8F2FF" font-size="19" font-weight="700">SPEC</text>
+      <text x="140" y="366" fill="#7A90AE">full traversal · Structure Map · Flow Inventory · Composition / Element /</text>
+      <text x="140" y="386" fill="#7A90AE">Layout / Motion / Log inventory per screen · hidden + gated from source</text>
+      <rect x="740" y="324" width="404" height="66" rx="8" fill="#0E1626" stroke="#2A3A55"/>
+      <text x="760" y="352" fill="#8FB6C9">GATE  no TBD left · every screen has a</text>
+      <text x="760" y="374" fill="#8FB6C9">      reference shot · user approves spec</text>
+    </g>
+    <g>
+      <circle cx="92" cy="452" r="20" fill="#0B1A24" stroke="#22D3EE"/>
+      <text x="92" y="457" fill="#22D3EE" font-size="14" text-anchor="middle">2</text>
+      <text x="140" y="446" fill="#E8F2FF" font-size="19" font-weight="700">SCAFFOLD</text>
+      <text x="140" y="470" fill="#7A90AE">tokens taken from iOS (no Material default leaks) · shared assets · i18n</text>
+      <rect x="740" y="428" width="404" height="48" rx="8" fill="#0E1626" stroke="#2A3A55"/>
+      <text x="760" y="458" fill="#8FB6C9">GATE  assembleDebug passes + tokens match</text>
+    </g>
+    <g>
+      <circle cx="92" cy="544" r="20" fill="#0B1A24" stroke="#22D3EE"/>
+      <text x="92" y="549" fill="#22D3EE" font-size="14" text-anchor="middle">3</text>
+      <text x="140" y="538" fill="#E8F2FF" font-size="19" font-weight="700">MAP</text>
+      <text x="140" y="562" fill="#7A90AE">pick the LOWEST tier that reaches parity · platform APIs get adapters</text>
+      <rect x="740" y="520" width="404" height="48" rx="8" fill="#0E1626" stroke="#2A3A55"/>
+      <text x="760" y="550" fill="#8FB6C9">GATE  every symbol mapped or has an adapter</text>
+    </g>
+    <g>
+      <circle cx="92" cy="636" r="20" fill="#0B1A24" stroke="#22D3EE"/>
+      <text x="92" y="641" fill="#22D3EE" font-size="14" text-anchor="middle">4</text>
+      <text x="140" y="630" fill="#E8F2FF" font-size="19" font-weight="700">PORT</text>
+      <text x="140" y="654" fill="#7A90AE">vertical slice per flow: model → logic → UI · logs written with the code</text>
+      <rect x="740" y="612" width="404" height="48" rx="8" fill="#0E1626" stroke="#2A3A55"/>
+      <text x="760" y="642" fill="#8FB6C9">GATE  compiles + checked against spec per module</text>
+    </g>
+    <g>
+      <circle cx="92" cy="728" r="20" fill="#0B1A24" stroke="#22D3EE"/>
+      <text x="92" y="733" fill="#22D3EE" font-size="14" text-anchor="middle">5</text>
+      <text x="140" y="722" fill="#E8F2FF" font-size="19" font-weight="700">VERIFY</text>
+      <text x="140" y="746" fill="#7A90AE">A build/test/release-R8 · B diff + onion + IoU + texts + colour ·</text>
+      <text x="140" y="766" fill="#7A90AE">C behaviour &amp; feel walkthrough · adversarial ≥5 · perf parity</text>
+      <rect x="740" y="704" width="404" height="66" rx="8" fill="#0B1A24" stroke="#22D3EE" stroke-opacity="0.6"/>
+      <text x="760" y="732" fill="#22D3EE">GATE  NUMERIC evidence ≤ tolerance</text>
+      <text x="760" y="754" fill="#8FB6C9">      no numbers means not VERIFIED</text>
+    </g>
+    <g>
+      <circle cx="92" cy="812" r="20" fill="#0B1A24" stroke="#22D3EE"/>
+      <text x="92" y="817" fill="#22D3EE" font-size="14" text-anchor="middle">6</text>
+      <text x="140" y="806" fill="#E8F2FF" font-size="19" font-weight="700">HARVEST</text>
+      <text x="140" y="830" fill="#7A90AE">new mappings / effects / adapters go back into mapping-kb</text>
+      <rect x="740" y="788" width="404" height="48" rx="8" fill="#0B1A24" stroke="#3DDC84" stroke-opacity="0.6"/>
+      <text x="760" y="818" fill="#3DDC84">GATE  parity-status.sh prints DONE</text>
+    </g>
+  </g>
+</svg>

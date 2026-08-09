@@ -1,0 +1,14 @@
+/* Fixture vi (default) */
+"tab.home" = "Trang chủ";
+"tab.settings" = "Cài đặt";
+"home.title" = "Danh sách";
+"home.addButton" = "Thêm";
+"home.detail.title" = "Mục mới";
+"home.detail.namePlaceholder" = "Tên mục";
+"home.detail.save" = "Lưu";
+"settings.title" = "Cài đặt";
+"settings.darkMode" = "Chế độ tối";
+"settings.language" = "Ngôn ngữ";
+"settings.version" = "Phiên bản";
+/* HIDDEN: key không dùng ở UI — test skill có inventory unused/hidden không */
+"secret.easterEgg" = "Bạn đã tìm thấy trứng phục sinh!";

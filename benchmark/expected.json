@@ -1,0 +1,158 @@
+{
+  "comment": "Ground truth cho fixture-ios/. Mỗi entry phải xuất hiện trong parity-spec.md do skill sinh ở stage 1. patterns = mảng regex (grep -iE, OR nhau) — chấp nhận alias đặt tên khác nhau.",
+  "min_screens": 2,
+  "min_ledger_rows": 8,
+  "required_sections": [
+    {
+      "name": "STRUCTURE-MAP",
+      "patterns": [
+        "STRUCTURE[ _-]?MAP"
+      ]
+    },
+    {
+      "name": "FLOW-INVENTORY",
+      "patterns": [
+        "FLOW[ _-]?INVENTORY"
+      ]
+    },
+    {
+      "name": "COMPLETENESS-LEDGER",
+      "patterns": [
+        "COMPLETENESS[ _-]?LEDGER"
+      ]
+    },
+    {
+      "name": "DEVIATION",
+      "patterns": [
+        "DEVIATION"
+      ]
+    },
+    {
+      "name": "LOG-INVENTORY",
+      "patterns": [
+        "LOG[ _-]?INVENTORY",
+        "AppLog"
+      ]
+    },
+    {
+      "name": "DEVICE-PAIR",
+      "patterns": [
+        "ios_ref_pt",
+        "android_device_dp",
+        "devcheck",
+        "cùng logical size"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "HOME",
+      "desc": "Màn Home (list 5 item)",
+      "patterns": [
+        "HomeView",
+        "Home[ -]?[Ss]creen",
+        "màn Trang chủ"
+      ]
+    },
+    {
+      "id": "SETTINGS",
+      "desc": "Màn Settings (toggle/picker/version)",
+      "patterns": [
+        "SettingsView",
+        "Settings[ -]?[Ss]creen",
+        "màn Cài đặt"
+      ]
+    },
+    {
+      "id": "TAB-NAV",
+      "desc": "TabView 2 tab → bottom navigation",
+      "patterns": [
+        "TabView",
+        "TAB-NAV",
+        "bottom[ -]?nav",
+        "tab[ -]?bar",
+        "NavigationBar"
+      ]
+    },
+    {
+      "id": "ADD-ITEM-FLOW",
+      "desc": "Flow nhiều bước: Add → sheet → nhập tên → Save",
+      "patterns": [
+        "ADD-ITEM",
+        "add[ -]?item",
+        "AddItem",
+        "thêm mục"
+      ]
+    },
+    {
+      "id": "ADD-BUTTON-SCALE",
+      "desc": "Animation scale nút Add (spring bump)",
+      "patterns": [
+        "ADD-BUTTON-SCALE",
+        "scale",
+        "spring",
+        "scaleEffect"
+      ]
+    },
+    {
+      "id": "SHEET-DETAIL",
+      "desc": "Sheet detail nhập item mới",
+      "patterns": [
+        "sheet",
+        "ModalBottomSheet",
+        "detail"
+      ]
+    },
+    {
+      "id": "I18N-PARITY",
+      "desc": "i18n 2 lang vi (default) + en, parity key",
+      "patterns": [
+        "vi\\.lproj",
+        "en\\.lproj",
+        "values-en",
+        "Localizable",
+        "strings\\.xml"
+      ]
+    },
+    {
+      "id": "ITEM-STORE",
+      "desc": "Persist UserDefaults → SharedPreferences/DataStore",
+      "patterns": [
+        "ItemStore",
+        "UserDefaults",
+        "SharedPreferences",
+        "DataStore",
+        "persist"
+      ]
+    },
+    {
+      "id": "EASTER-EGG",
+      "desc": "HIDDEN: key i18n secret.easterEgg KHÔNG dùng ở UI — spec phải inventory (§ HIDDEN / i18n unused)",
+      "patterns": [
+        "easterEgg",
+        "easter",
+        "key.*(không dùng|unused)",
+        "unused key"
+      ]
+    },
+    {
+      "id": "ACCENT-COLOR",
+      "desc": "Asset color trong code: Color.fixtureAccent #FF6B35",
+      "patterns": [
+        "fixtureAccent",
+        "FF6B35",
+        "accent"
+      ]
+    },
+    {
+      "id": "TEXTFIELD-KEYBOARD",
+      "desc": "TextField trong sheet + bàn phím (Compose không tự né bàn phím)",
+      "patterns": [
+        "TextField",
+        "imePadding",
+        "bàn phím",
+        "keyboard"
+      ]
+    }
+  ]
+}

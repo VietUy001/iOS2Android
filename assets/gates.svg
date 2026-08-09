@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" font-family="JetBrains Mono, SF Mono, Menlo, DejaVu Sans Mono, monospace">
+  <defs>
+    <pattern id="g2" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#151F31" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="acc2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22D3EE"/><stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" fill="#0B0F1A"/>
+  <rect width="1200" height="720" fill="url(#g2)" opacity="0.6"/>
+
+  <text x="56" y="62" fill="#E8F2FF" font-size="26" font-weight="700">VERIFY GATE CHAIN</text>
+  <text x="56" y="88" fill="#6C86A6" font-size="14">fail a gate and you stop there · later gates are not scored while an earlier one is red</text>
+  <rect x="56" y="102" width="120" height="3" fill="url(#acc2)"/>
+
+  <!-- gate column -->
+  <g font-size="13">
+    <g>
+      <rect x="56" y="140" width="330" height="58" rx="8" fill="#0E1626" stroke="#2A3A55"/>
+      <text x="76" y="166" fill="#E8F2FF" font-size="15">1 · SECTION COMPOSITION</text>
+      <text x="76" y="186" fill="#7A90AE">same block count · same order 1:1</text>
+      <path d="M221 198 v22" stroke="#22304A" stroke-width="2"/>
+    </g>
+    <g>
+      <rect x="56" y="220" width="330" height="58" rx="8" fill="#0E1626" stroke="#2A3A55"/>
+      <text x="76" y="246" fill="#E8F2FF" font-size="15">2 · ELEMENT INVENTORY</text>
+      <text x="76" y="266" fill="#7A90AE">every widget present + texts-diff</text>
+      <path d="M221 278 v22" stroke="#22304A" stroke-width="2"/>
+    </g>
+    <g>
+      <rect x="56" y="300" width="330" height="58" rx="8" fill="#0E1626" stroke="#2A3A55"/>
+      <text x="76" y="326" fill="#E8F2FF" font-size="15">3 · LAYOUT / SAFE-AREA / IoU</text>
+      <text x="76" y="346" fill="#7A90AE">anchor_Y ≤2dp · inset · IoU ≥ 0.90</text>
+      <path d="M221 358 v22" stroke="#22304A" stroke-width="2"/>
+    </g>
+    <g>
+      <rect x="56" y="380" width="330" height="58" rx="8" fill="#0E1626" stroke="#2A3A55"/>
+      <text x="76" y="406" fill="#E8F2FF" font-size="15">4 · MOTION PER-LAYER</text>
+      <text x="76" y="426" fill="#7A90AE">read every layer in source · Δ ≤ 16ms</text>
+      <path d="M221 438 v22" stroke="#22304A" stroke-width="2"/>
+    </g>
+    <g>
+      <rect x="56" y="460" width="330" height="58" rx="8" fill="#0B1A24" stroke="#22D3EE" stroke-opacity="0.6"/>
+      <text x="76" y="486" fill="#22D3EE" font-size="15">5 · PARITY-DIFF, EVERY STATE</text>
+      <text x="76" y="506" fill="#8FB6C9">%diff ≤ 1.0 · onion-skin · color Δ0</text>
+      <path d="M221 518 v22" stroke="#22304A" stroke-width="2"/>
+    </g>
+    <g>
+      <rect x="56" y="540" width="330" height="58" rx="8" fill="#0E1626" stroke="#2A3A55"/>
+      <text x="76" y="566" fill="#E8F2FF" font-size="15">6 · DETAIL DIFF + ADVERSARIAL</text>
+      <text x="76" y="586" fill="#7A90AE">attribute by attribute · list ≥5 differences</text>
+      <path d="M221 598 v22" stroke="#22304A" stroke-width="2"/>
+    </g>
+    <g>
+      <rect x="56" y="620" width="330" height="58" rx="8" fill="#0E1626" stroke="#2A3A55"/>
+      <text x="76" y="646" fill="#E8F2FF" font-size="15">7 · PERF + RELEASE/R8 + LOG</text>
+      <text x="76" y="666" fill="#7A90AE">cold start ≤ iOS+20% · smoke release</text>
+    </g>
+  </g>
+
+  <!-- right side: outcomes -->
+  <g font-size="13">
+    <rect x="470" y="140" width="290" height="118" rx="10" fill="#1A0F14" stroke="#F87171" stroke-opacity="0.55"/>
+    <text x="492" y="172" fill="#F87171" font-size="16" font-weight="700">GATE FAILED</text>
+    <text x="492" y="198" fill="#C08A8A">stop right at that gate</text>
+    <text x="492" y="218" fill="#C08A8A">hand back to DEV with evidence</text>
+    <text x="492" y="238" fill="#C08A8A">later gates are not scored</text>
+
+    <rect x="470" y="290" width="290" height="140" rx="10" fill="#0E1626" stroke="#2A3A55"/>
+    <text x="492" y="322" fill="#E8F2FF" font-size="16" font-weight="700">EVIDENCE IS MANDATORY</text>
+    <text x="492" y="348" fill="#7A90AE">a VERIFIED row must carry numbers:</text>
+    <text x="492" y="372" fill="#22D3EE">parity-diff %=0.42 ≤ tol</text>
+    <text x="492" y="394" fill="#22D3EE">IoU=0.97 · diff: path/anh.png</text>
+    <text x="492" y="416" fill="#7A90AE">"looks fine" does not count</text>
+
+    <rect x="470" y="462" width="290" height="118" rx="10" fill="#0B1A24" stroke="#3DDC84" stroke-opacity="0.5"/>
+    <text x="492" y="494" fill="#3DDC84" font-size="16" font-weight="700">DONE (binary)</text>
+    <text x="492" y="520" fill="#8FB6C9">decided by parity-status.sh</text>
+    <text x="492" y="540" fill="#8FB6C9">never by the agent's own claim</text>
+    <text x="492" y="560" fill="#8FB6C9">zero rows left unverified</text>
+
+    <path d="M386 169 H470" stroke="#F87171" stroke-width="2" stroke-opacity="0.5"/>
+    <path d="M386 489 H470" stroke="#3DDC84" stroke-width="2" stroke-opacity="0.5"/>
+  </g>
+
+  <!-- DoD formula -->
+  <g>
+    <rect x="800" y="140" width="344" height="440" rx="10" fill="#0E1626" stroke="#2A3A55"/>
+    <text x="822" y="172" fill="#E8F2FF" font-size="16" font-weight="700">DONE ⇔ all of these hold</text>
+    <g font-size="13" fill="#8FA8C4">
+      <text x="822" y="206">▸ 0 ledger rows not VERIFIED</text>
+      <text x="822" y="232">▸ 0 rows in FAIL / RECHECK</text>
+      <text x="822" y="258">▸ 0 VERIFIED rows without evidence</text>
+      <text x="822" y="284">▸ screen/section rows carry %= or IoU=</text>
+      <text x="822" y="310">▸ 0 flows still open</text>
+      <text x="822" y="336">▸ assembleDebug + unit tests pass</text>
+      <text x="822" y="362">▸ assembleRelease (R8) passes</text>
+      <text x="822" y="388">▸ 0 TODO / stub / notImplemented</text>
+      <text x="822" y="414">▸ 0 scattered logs (Log.d / println)</text>
+      <text x="822" y="440">▸ 0 files &gt; 800 LOC without approval</text>
+      <text x="822" y="466">▸ every checklist box signed</text>
+      <text x="822" y="492">▸ DEVIATIONS.md has nothing pending</text>
+    </g>
+    <rect x="822" y="516" width="300" height="42" rx="8" fill="#0B1A24" stroke="#3DDC84" stroke-opacity="0.5"/>
+    <text x="842" y="542" fill="#3DDC84" font-size="14">scripts/parity-status.sh → DONE</text>
+  </g>
+
+  <text x="56" y="700" fill="#4E657F" font-size="12">iOS2Android · verify chain · every gate is script-checked, never left to the agent's impression</text>
+</svg>

@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" font-family="JetBrains Mono, SF Mono, Menlo, DejaVu Sans Mono, monospace">
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#162034" stroke-width="1"/>
+    </pattern>
+    <pattern id="grid5" width="200" height="200" patternUnits="userSpaceOnUse">
+      <path d="M200 0H0V200" fill="none" stroke="#1E2A44" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="vig" cx="50%" cy="38%" r="78%">
+      <stop offset="0%" stop-color="#0F1728"/>
+      <stop offset="100%" stop-color="#080B14"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="9" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="640" fill="url(#vig)"/>
+  <rect width="1280" height="640" fill="url(#grid)" opacity="0.55"/>
+  <rect width="1280" height="640" fill="url(#grid5)" opacity="0.5"/>
+  <circle cx="1140" cy="120" r="200" fill="#22D3EE" opacity="0.045"/>
+  <circle cx="120" cy="560" r="180" fill="#38BDF8" opacity="0.035"/>
+
+  <!-- corner ticks -->
+  <g stroke="#22D3EE" stroke-width="2" opacity="0.7" fill="none">
+    <path d="M40 76 V40 H76"/><path d="M1204 40 H1240 V76"/>
+    <path d="M40 564 V600 H76"/><path d="M1204 600 H1240 V564"/>
+  </g>
+
+  <text x="80" y="112" fill="#5B7290" font-size="17" letter-spacing="5">CLAUDE  CODE  SKILL</text>
+
+  <text x="78" y="216" font-size="88" font-weight="700" letter-spacing="-1">
+    <tspan fill="#E8F2FF">iOS</tspan><tspan fill="url(#accent)">2</tspan><tspan fill="#E8F2FF">Android</tspan>
+  </text>
+  <rect x="80" y="238" width="132" height="3" fill="url(#accent)" filter="url(#glow)"/>
+  <text x="80" y="288" fill="#93A7C4" font-size="25">Port iOS SwiftUI to Android Compose with MEASURABLE parity</text>
+
+  <!-- pipeline row -->
+  <g>
+    <rect x="80" y="336" width="272" height="112" rx="10" fill="#0E1626" stroke="#2A3A55"/>
+    <text x="108" y="382" fill="#E8F2FF" font-size="30" font-weight="700">iOS</text>
+    <text x="108" y="414" fill="#7A90AE" font-size="17">Swift / SwiftUI</text>
+    <rect x="80" y="336" width="4" height="112" rx="2" fill="#64748B"/>
+
+    <g stroke="#22D3EE" stroke-width="2" fill="none">
+      <path d="M366 392 H482"/><path d="M470 384 l12 8 -12 8" fill="#22D3EE" stroke="none"/>
+    </g>
+    <text x="378" y="378" fill="#22D3EE" font-size="15" letter-spacing="2">spec</text>
+
+    <rect x="504" y="322" width="272" height="140" rx="10" fill="#0B1A24" stroke="#22D3EE" stroke-opacity="0.55"/>
+    <text x="532" y="372" fill="#22D3EE" font-size="30" font-weight="700">PARITY</text>
+    <text x="532" y="402" fill="#8FB6C9" font-size="16">3 pillars + tolerance</text>
+    <text x="532" y="428" fill="#5F7E92" font-size="14">≤2dp · color Δ0 · ≤16ms · ≤1.0%</text>
+
+    <g stroke="#22D3EE" stroke-width="2" fill="none">
+      <path d="M790 392 H906"/><path d="M894 384 l12 8 -12 8" fill="#22D3EE" stroke="none"/>
+    </g>
+    <text x="806" y="378" fill="#22D3EE" font-size="15" letter-spacing="2">port</text>
+
+    <rect x="928" y="336" width="272" height="112" rx="10" fill="#0E1626" stroke="#2A3A55"/>
+    <text x="956" y="382" fill="#E8F2FF" font-size="30" font-weight="700">Android</text>
+    <text x="956" y="414" fill="#7A90AE" font-size="17">Kotlin / Compose</text>
+    <rect x="1196" y="336" width="4" height="112" rx="2" fill="#3DDC84"/>
+  </g>
+
+  <!-- stage rail -->
+  <g>
+    <path d="M80 512 H1200" stroke="#243349" stroke-width="2"/>
+    <g fill="#22D3EE">
+      <circle cx="80" cy="512" r="5"/><circle cx="240" cy="512" r="5"/><circle cx="400" cy="512" r="5"/>
+      <circle cx="560" cy="512" r="5"/><circle cx="720" cy="512" r="5"/><circle cx="880" cy="512" r="5"/>
+      <circle cx="1040" cy="512" r="5"/><circle cx="1200" cy="512" r="5"/>
+    </g>
+    <g fill="#7A90AE" font-size="13" text-anchor="middle">
+      <text x="80" y="540">-1</text><text x="240" y="540">0</text><text x="400" y="540">1</text>
+      <text x="560" y="540">2</text><text x="720" y="540">3</text><text x="880" y="540">4</text>
+      <text x="1040" y="540">5</text><text x="1200" y="540">6</text>
+    </g>
+    <g fill="#4E657F" font-size="12" text-anchor="middle" letter-spacing="1">
+      <text x="80" y="560">PREFLIGHT</text><text x="240" y="560">CONTRACT</text><text x="400" y="560">SPEC</text>
+      <text x="560" y="560">SCAFFOLD</text><text x="720" y="560">MAP</text><text x="880" y="560">PORT</text>
+      <text x="1040" y="560">VERIFY</text><text x="1200" y="560">HARVEST</text>
+    </g>
+  </g>
+
+  <!-- chips -->
+  <g font-size="14" fill="#8FA8C4">
+    <rect x="80" y="586" width="196" height="30" rx="15" fill="#101B2C" stroke="#2A3A55"/>
+    <text x="100" y="606">pixel-parity gates</text>
+    <rect x="290" y="586" width="238" height="30" rx="15" fill="#101B2C" stroke="#2A3A55"/>
+    <text x="310" y="606">binary Definition of Done</text>
+    <rect x="542" y="586" width="176" height="30" rx="15" fill="#101B2C" stroke="#2A3A55"/>
+    <text x="562" y="606">8 agent roles</text>
+    <rect x="732" y="586" width="212" height="30" rx="15" fill="#101B2C" stroke="#2A3A55"/>
+    <text x="752" y="606">machine-checked DoD</text>
+  </g>
+  <text x="1200" y="606" fill="#3F5470" font-size="13" text-anchor="end">CC BY-NC-ND 4.0</text>
+</svg>
