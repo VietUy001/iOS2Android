@@ -126,6 +126,18 @@ benchmark/score.sh "$T/parity-spec.md" "$T/android"
 - App iOS không build được thì phải bật ORACLE-LIMITED và chịu mất Trụ 1, cần người dùng ký chấp nhận.
 - Tài liệu doctrine viết bằng tiếng Việt. Bản tóm tắt tiếng Anh ở [docs/overview.en.md](docs/overview.en.md).
 
+## ⭐ Star History
+
+Nếu dự án giúp ích cho bạn, cho một sao nhé.
+
+<a href="https://star-history.com/#VietUy001/iOS2Android&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=VietUy001/iOS2Android&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=VietUy001/iOS2Android&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=VietUy001/iOS2Android&type=Date" width="100%" />
+  </picture>
+</a>
+
 ## Tác giả
 
 **Nguyễn Viết Uy** · [@VietUy001](https://github.com/VietUy001)

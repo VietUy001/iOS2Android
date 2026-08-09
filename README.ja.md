@@ -126,6 +126,18 @@ benchmark/score.sh "$T/parity-spec.md" "$T/android"
 - iOS アプリが build できない場合は ORACLE-LIMITED を有効にし、第 1 の柱を失うことを受け入れる必要がある。ユーザーによる承諾の署名が要る。
 - doctrine のドキュメントはベトナム語で書かれている。英語の要約は [docs/overview.en.md](docs/overview.en.md) にある。
 
+## ⭐ Star History
+
+このプロジェクトが役に立ったなら、star をひとつ付けてもらえると嬉しい。
+
+<a href="https://star-history.com/#VietUy001/iOS2Android&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=VietUy001/iOS2Android&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=VietUy001/iOS2Android&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=VietUy001/iOS2Android&type=Date" width="100%" />
+  </picture>
+</a>
+
 ## 作者
 
 **Nguyen Viet Uy** · [@VietUy001](https://github.com/VietUy001)

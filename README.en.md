@@ -126,6 +126,18 @@ benchmark/score.sh "$T/parity-spec.md" "$T/android"
 - If the iOS app cannot be built, you must enable ORACLE-LIMITED mode, lose Pillar 1, and get an explicit user sign-off.
 - The doctrine files are written in Vietnamese. An English summary lives in [docs/overview.en.md](docs/overview.en.md).
 
+## ⭐ Star History
+
+If this project helps you, please consider giving it a star.
+
+<a href="https://star-history.com/#VietUy001/iOS2Android&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=VietUy001/iOS2Android&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=VietUy001/iOS2Android&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=VietUy001/iOS2Android&type=Date" width="100%" />
+  </picture>
+</a>
+
 ## Author
 
 **Nguyen Viet Uy** · [@VietUy001](https://github.com/VietUy001)
